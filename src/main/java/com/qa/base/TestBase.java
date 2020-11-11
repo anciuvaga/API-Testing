@@ -8,6 +8,8 @@ import java.util.Properties;
 public class TestBase {
 
     public int  RESPONSE_STATUS_CODE_200 = 200;
+    public int  RESPONSE_STATUS_CODE_201 = 201;
+
     public Properties properties;
     public String propertyFilePath = "src/main/resources/configs/config.properties";
 
@@ -23,3 +25,4 @@ public class TestBase {
         }
     }
 }
+
